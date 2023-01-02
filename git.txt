@@ -1,0 +1,36 @@
+Developer team
+
+Repositry - code
+
+
+
+
+Testing team
+
+Reposity test case code
+
+Development operation(Devops)
+They will create a build
+They will execute basic test cases
+After successfull they will send
+
+Git - local repositry
+commit action
+
+Git Hub - remote repositry (Common)
+
+Jenkins
+will get from github
+
+continous Integration
+
+
+pytest -s -v --html=Reports\login.html TestCases/test_login.py --browser chrome  
+
+step 1 Create local git repositry
+ git init
+
+step 2 : Creat a repostiry in git hub
+https://github.com/Yaseen1018/Nopcommerceapp.git
+
+
