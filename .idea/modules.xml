@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Nopcommerceapp.iml" filepath="$PROJECT_DIR$/.idea/Nopcommerceapp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Nopcommerceproject.iml" filepath="$PROJECT_DIR$/.idea/Nopcommerceproject.iml" />
     </modules>
   </component>
 </project>
