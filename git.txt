@@ -33,4 +33,49 @@ step 1 Create local git repositry
 step 2 : Creat a repostiry in git hub
 https://github.com/Yaseen1018/Nopcommerceapp.git
 
+will connect bw local and global
+
+
+Before doing commit first tie we need to execute these below commands
+git config --global user.name "yaseen"
+git config --global user.email "yaseenhyder1018@gmail.com"
+
+Step 3
+Working directory (git add) to Staging are (git commit) to repository
+step 4
+git -status
+Status for preview
+
+git add -A to push to statging
+Step 5
+git commit  to push to git repository
+git commit -m "This is my first commit..."
+
+Step 6
+To push code to Github repository
+8
+
+git remote set-url origin https://github.com/Yaseen1018/Nopcommerceapp.git
+git push -u origin main
+
+step 9
+step 7 pull from github
+git pull
+
+step 10
+git add -A to push to statging
+Step 5
+git commit  to push to git repository
+git commit -m "This is my second commit..."
+git push -u origin main
+
+
+Jenkin - CI Tool (Continuos Integration)
+To open jenking in browser
+java -jar jenkins.war
+
+
+
+
+
 
