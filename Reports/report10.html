@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8"/>
-    <title>report6.html</title>
+    <title>report10.html</title>
     <link href="assets/style.css" rel="stylesheet" type="text/css"/></head>
   <body onLoad="init()">
     <script>/* This Source Code Form is subject to the terms of the Mozilla Public
@@ -252,8 +252,8 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
     notFoundMessage.hidden = !allRowsHidden;
 }
 </script>
-    <h1>report6.html</h1>
-    <p>Report generated on 22-Mar-2023 at 17:55:32 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v3.2.0</p>
+    <h1>report10.html</h1>
+    <p>Report generated on 20-Mar-2023 at 10:49:39 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v3.2.0</p>
     <h2>Environment</h2>
     <table id="environment">
       <tr>
@@ -275,8 +275,8 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
         <td>project Name</td>
         <td>Nop Commerce</td></tr></table>
     <h2>Summary</h2>
-    <p>6 tests ran in 206.62 seconds. </p>
-    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="passed">4 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="failed">2 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
+    <p>0 tests ran in 26.29 seconds. </p>
+    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="passed">0 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="failed">0 failed</span>, <input checked="true" class="filter" data-test-result="error" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="error">6 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
     <h2>Results</h2>
     <table id="results-table">
       <thead id="results-table-head">
@@ -287,56 +287,56 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
           <th class="sortable links" col="links">Links</th></tr>
         <tr hidden="true" id="not-found-message">
           <th colspan="4">No results found. Try to check the filters</th></tr></thead>
-      <tbody class="failed results-table-row">
+      <tbody class="error results-table-row">
         <tr>
-          <td class="col-result">Failed</td>
-          <td class="col-name">test_addCustomer.py::Test_03_addCustromer::test_addCustomer</td>
-          <td class="col-duration">71.08</td>
+          <td class="col-result">Error</td>
+          <td class="col-name">test_addCustomer.py::Test_03_addCustromer::test_addCustomer::setup</td>
+          <td class="col-duration">4.82</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
             <div class="empty log">No log output captured.</div></td></tr></tbody>
-      <tbody class="failed results-table-row">
+      <tbody class="error results-table-row">
         <tr>
-          <td class="col-result">Failed</td>
-          <td class="col-name">test_login_ddd.py::Test_02_ddt__Login::test_loginPage_ddt</td>
-          <td class="col-duration">73.08</td>
+          <td class="col-result">Error</td>
+          <td class="col-name">test_login.py::Test_01_Login::test_homePageTitle::setup</td>
+          <td class="col-duration">4.87</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
             <div class="empty log">No log output captured.</div></td></tr></tbody>
-      <tbody class="passed results-table-row">
+      <tbody class="error results-table-row">
         <tr>
-          <td class="col-result">Passed</td>
-          <td class="col-name">test_login.py::Test_01_Login::test_homePageTitle</td>
-          <td class="col-duration">3.04</td>
+          <td class="col-result">Error</td>
+          <td class="col-name">test_login.py::Test_01_Login::test_loginPage::setup</td>
+          <td class="col-duration">3.24</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
             <div class="empty log">No log output captured.</div></td></tr></tbody>
-      <tbody class="passed results-table-row">
+      <tbody class="error results-table-row">
         <tr>
-          <td class="col-result">Passed</td>
-          <td class="col-name">test_login.py::Test_01_Login::test_loginPage</td>
-          <td class="col-duration">8.03</td>
+          <td class="col-result">Error</td>
+          <td class="col-name">test_login_ddd.py::Test_02_ddt__Login::test_loginPage_ddt::setup</td>
+          <td class="col-duration">4.03</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
             <div class="empty log">No log output captured.</div></td></tr></tbody>
-      <tbody class="passed results-table-row">
+      <tbody class="error results-table-row">
         <tr>
-          <td class="col-result">Passed</td>
-          <td class="col-name">test_searchEmail.py::Test_03_searchCustomerByEmail::test_searchCustomerByEnail</td>
-          <td class="col-duration">14.93</td>
+          <td class="col-result">Error</td>
+          <td class="col-name">test_searchEmail.py::Test_03_searchCustomerByEmail::test_searchCustomerByEnail::setup</td>
+          <td class="col-duration">4.58</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
             <div class="empty log">No log output captured.</div></td></tr></tbody>
-      <tbody class="passed results-table-row">
+      <tbody class="error results-table-row">
         <tr>
-          <td class="col-result">Passed</td>
-          <td class="col-name">test_searchName.py::Test_03_searchCustomerByEmail::test_searchCustomerByName</td>
-          <td class="col-duration">35.53</td>
+          <td class="col-result">Error</td>
+          <td class="col-name">test_searchName.py::Test_03_searchCustomerByEmail::test_searchCustomerByName::setup</td>
+          <td class="col-duration">3.62</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">

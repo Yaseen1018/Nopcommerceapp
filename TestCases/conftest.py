@@ -1,10 +1,12 @@
-from selenium import webdriver
 import pytest
+from selenium import webdriver
+from selenium.webdriver.chrome.service import Service
 
 @pytest.fixture()
 def setup(browser):
     if browser=='chrome':
-        driver= webdriver.Chrome()
+        serv_obj = Service("C:\browserdrivers\chromedriver.exe")
+        driver= webdriver.Chrome(service=serv_obj)
     elif browser == 'Ie':
         driver= webdriver.Ie()
     return driver
@@ -25,7 +27,7 @@ def pytest_configure(config):
     config._metadata['QA'] = 'Yaseen'
 
 #it is hook for delete/modify in to Html reports
-@pytest.mark.optionalhook
+@pytest.hookimpl(optionalhook=True)
 def pytest_metadata(metadata):
     metadata.pop("JAVA_Home", None)
     metadata.pop("Plugins", None)

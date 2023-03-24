@@ -1,0 +1,66 @@
+first step 
+import selenium webdriver
+Page object class 
+find element
+create a python construct which will invoke object
+self.driver.driver
+
+Action method(self,username)
+def setUsername(self, username))
+
+Step2 Login test case:
+Under Test cases package
+import pytest
+import selenium
+from Page object import loginpage
+
+create class with Id
+create base variables for url,username, password
+
+def test(self)
+create a driver
+through driver webdriver chrome
+throught driver get url
+close
+if page title
+assert
+True 
+else false
+
+
+
+
+
+
+def login
+create a driver
+through driver webdriver chrome
+throught driver get url
+Create an object as lp
+self.lp=Loginpage(self.driver)
+self.lp.SetUsername call all methods from Loginpage 
+if page title
+assert
+True 
+else false
+
+Create Conftest file
+For duplication
+def setup()
+chrome
+
+Congiguration 
+base url(Common data).ini
+
+save screenshot on failure
+Utilty class read common data
+import config parser
+
+
+config = config.parser
+Utilitue class to read inin file
+
+
+
+
+
